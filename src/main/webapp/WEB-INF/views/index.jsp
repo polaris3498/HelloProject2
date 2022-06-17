@@ -13,9 +13,7 @@
 </head>
 <body>
 
-	
-	1. bae
-	
+	<jsp:include page="./layout/header.jsp"></jsp:include>
 	
 	
 </body>
