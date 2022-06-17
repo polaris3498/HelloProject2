@@ -22,11 +22,6 @@
 	
 	2. song
 	
-<<<<<<< HEAD
-	3. sdfsdf
-=======
-	3. lll
->>>>>>> lhs
-	
+
 </body>
 </html>
