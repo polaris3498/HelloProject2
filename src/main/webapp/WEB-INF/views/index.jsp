@@ -13,16 +13,14 @@
 </head>
 <body>
 
+	<a href="${contextPath}/book/bookPage">책</a><br>
+	<a href="${contextPath}/reservation/reservationPage">좌석예약</a><br>
+	<a href="${contextPath}/book/bookPage">책</a>
+	<a href="${contextPath}/admin/manage">관리자페이지</a>
+	
 	
 
 	
-	
-
-	1. bae
-	
-	2. song
-	
-	3. sdfsdf
 	
 </body>
 </html>
