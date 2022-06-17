@@ -13,8 +13,25 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 	<jsp:include page="./layout/header.jsp"></jsp:include>
+=======
+	
+
 	
 	
+
+	1. bae
+	
+	2. song
+>>>>>>> main
+	
+<<<<<<< HEAD
+	4.dkjakl
+=======
+
+>>>>>>> 45612aba9e704f848c3119bbc292f99998f7bb7f
+
+mark
 </body>
 </html>
