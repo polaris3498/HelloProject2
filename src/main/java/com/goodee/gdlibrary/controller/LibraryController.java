@@ -1,11 +1,20 @@
 package com.goodee.gdlibrary.controller;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller
-public class Test {
+import com.goodee.gdlibrary.service.ManageService;
 
+@Controller
+public class LibraryController {
+
+	@Autowired
+	private ManageService manageService;
+	
 	@GetMapping("/")
 	public String index() {
 		return "index";
@@ -34,6 +43,11 @@ public class Test {
 	@GetMapping("/admin/boardsManage")
 	public String boardsManage() {
 		return "manage/boardsManage";
+	}
+	
+	@GetMapping("/admin/memberCheckRemove")
+	public void memberCheckRemove(HttpServletRequest request, HttpServletResponse response) {
+		manageService.removeMember(request, response);
 	}
 	
 	

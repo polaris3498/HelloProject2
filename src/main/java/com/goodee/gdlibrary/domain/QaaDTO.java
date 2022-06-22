@@ -1,3 +1,4 @@
+
 package com.goodee.gdlibrary.domain;
 
 import java.sql.Date;
@@ -20,5 +21,5 @@ public class QaaDTO {
 	   private Integer qaaDepth;
 	   private Long qaaGroupNo; 
 	   private Integer qaaGroupOrd; 
-
+       
 }

@@ -13,14 +13,16 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 	<a href="${contextPath}/book/bookPage">책</a><br>
 	<a href="${contextPath}/reservation/reservationPage">좌석예약</a><br>
 	<a href="${contextPath}/book/bookPage">책</a>
 	<a href="${contextPath}/admin/manage">관리자페이지</a>
-	
+=======
+<<<<<<< HEAD
+	<jsp:include page="./layout/header.jsp"></jsp:include>
+=======
 	
 
-	
-	
 </body>
 </html>

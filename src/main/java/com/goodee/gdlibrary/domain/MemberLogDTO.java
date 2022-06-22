@@ -14,6 +14,6 @@ import lombok.NoArgsConstructor;
 public class MemberLogDTO {
 	private Long memberLogNo;
 	private String memberId;
-	private Date memberLogSignUp;
+	private Date memberLogSignIn;
 
 }

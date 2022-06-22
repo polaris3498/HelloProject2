@@ -17,11 +17,13 @@ public class DormantMemberDTO {
 	private String memberId;
 	private String memberPw;
 	private String memberName;
-	private Integer memberPhone;
+	private String memberPhone;
 	private String memberEmail;
-	private String memberAddress;
+	private Integer memberPostcode;
+	private String memberRoadAddress;
+	private String memberDetailAddress;
 	private Integer memberAgreeState;
-	private Date memberSignIn;
+	private Date memberSignUp;
 	private Date dormantDate;
 
 }

@@ -16,9 +16,12 @@ public class BookDTO {
 		private String bookTitle;
 		private String bookAuthor;
 		private String bookPublisher;
-		private Date bookPubdate;
+		private String bookPubdate;
 		private String bookDescription;
 		private String bookImage;
 		private String bookField;
+		
+		
+		
 		
 }
